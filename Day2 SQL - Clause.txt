@@ -1,0 +1,169 @@
+//Gonna perform with and, or, = , != , < , > , <= , >= , in, not in, like, not like, is null, is not null
+
+//select all the customers who living in the country "Japan"
+
+select customername,state from customers where country = "Japan";
+
+//select all the customers who living in the country "Japan"
+
+select customername,state from customers where country= "Japan" and state= 'Tokyo';
+
+//select all the customers who are from the country usa or from the state tokyo
+
+select customername,state from customers where country = "usa"  or state = "Tokyo";
+
+//select all the customers living in the region other than Tokyo of Japan
+
+select customername,state from customers where country = "Japan"  and state != "Tokyo";
+
+//select all the peoples who are staying in CA, NJ and NY state
+
+select customername,state from customers where state = 'CA' or state = 'NJ' or state = 'NY';
+
+
+(or)
+
+select customername,state from customers where state in ('CA','NJ','NY');
+
+
+//select all the peoples who are not staying in CA, NJ and NY state
+
+select customername,state from customers where state != 'CA' and state != 'NJ' and state != 'NY';
+
+
+(or)
+
+select customername,state from customers where state not in ('CA','NJ','NY');
+
+
+
+desc products;
+
+//find out all the product whose quantity in stock is more than 9000
+
+select productname,quantityinstock from products where quantityinstock > 9000;
+
+
+//find out all the product whose quantity in stock is less than 1000
+
+select productname,quantityinstock from products where quantityinstock < 1000;
+
+select productname,quantityinstock,buyprice,msrp from products where quantityinstock < 1000;
+
+
+//find out all the product whose quantity in stock is less than 1000 
+//and whose msrp is greater than double the buyprice
+
+
+select productname,quantityinstock,buyprice,msrp from products where quantityinstock < 1000 
+and msrp > buyprice*2;
+
+
+//find out all the product whose quantity in stock is less than 600
+
+select productname,quantityinstock,buyprice,msrp from products where quantityinstock < 600;
+
+//find out all the product whose quantity in stock is less than equal to 600
+
+select productname,quantityinstock,buyprice,msrp from products where quantityinstock <= 600;
+
+//find out all the product whose quantity in stock is greater than equal to 600 
+//and less than equal to 1000
+
+select productname,quantityinstock,buyprice,msrp from products where quantityinstock >= 600 
+and quantityinstock <= 1000;
+
+(or)
+
+
+select productname,quantityinstock,buyprice,msrp from products
+where quantityinstock between 600 and 1000;   
+
+//in above query, between will include 600 and 1000 i.e. it will show quantityinstock from 600 to 1000
+
+
+//find out the employees who doesn't reports to anyone
+ 
+select * from employees where reportsTo is null;
+
+//find out the employees who has the reporting manager
+ 
+select * from employees where reportsTo is not null;
+
+//find out the employees who has the reporting manager and their job title is Sales Rep
+ 
+select * from employees where reportsTo is not null and jobTitle="Sales Rep";
+
+
+//SELF JOIN
+
+
+//find out the employees who has the reporting manager and their job title is Sales Rep
+ 
+select firstname,lastname,jobTitle,reportsto from employees where reportsTo is not null 
+and jobTitle="Sales Rep";
+
+select firstname,lastname,jobtitle,reportsto, 
+(select firstname from employees e1 
+where e1.employeenumber = e2.reportsTo) as "Reporting Manager"
+from employees e2 where reportsto is not null and jobtitle="Sales Rep";
+
+
+//here in inner subquery we get the reporting manager firstname and their's id 
+
+
+
+//find all the orders between 15-May-2005 to 31-May-2005
+
+select * from orders where orderdate between '2005-05-15' and '2005-05-31';
+
+select * from orders where orderdate in ('2005-05-15','2005-05-31');
+
+//between gives you a range whereas in gives you that particular date 
+
+
+//Find out all the products which contains 'BMW' in its name
+
+select productname from products where productname like '%BMW%' ;
+
+select productname from products where productname like '%Ford%' ;
+
+//Find out all the products which has starting year "1999"
+
+select productname from products where productname like '1999%' ;
+
+//Find out all the products which has "roadster" in last
+
+select productname from products where productname like '%roadster' ;
+
+//Find out all the product names which has 2 as the last digit in the year part of productname
+
+select productname from products where productname like '___2%';
+
+//Find out all the product names which has 02 as the last two digit in the year part of productname
+
+select productname from products where productname like '__02%';
+
+//Find out all the product names which has 9 in second digit and 9 in third digit in the year part of productname
+
+select productname from products where productname like '_99%';
+
+//Find out all the product names which end with car
+
+ select productname from products where productname like '%car';
+
+//Find out all the product names which last fourth character will be hyphen (-)
+
+select productname from products where productname like '%-___';
+
+//Find out all the product names which last fourth character will be hyphen (-) and before hyphen will be 'MD'
+
+select productname from products where productname like '%MD-___';
+
+//Find out all the product names which last eight character will be 'B' and last fourth character will be hyphen (-)
+
+select productname from products where productname like '%B___-___';
+
+//Find out all the product names which are not last eight character will be 'B' and last fourth character will be hyphen (-)
+
+select productname from products where productname not like '%B___-___';
