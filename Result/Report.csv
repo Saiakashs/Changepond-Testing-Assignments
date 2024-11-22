@@ -1,0 +1,61 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1732107083434,4214,Francis Xavier Engineering College,200,OK,FXEC 1-1,text,true,,152080,250,1,1,https://www.francisxavier.ac.in/,2067,0,77
+1732107083434,2072,Francis Xavier Engineering College-0,307,Temporary Redirect,FXEC 1-1,text,true,,504,125,1,1,http://www.francisxavier.ac.in/,2067,0,77
+1732107085510,2138,Francis Xavier Engineering College-1,200,OK,FXEC 1-1,text,true,,151576,125,1,1,https://www.francisxavier.ac.in/,2048,0,1333
+1732107087651,1615,Overview of FXEC,200,OK,FXEC 1-1,text,true,,65722,266,1,1,https://www.francisxavier.ac.in/overview,510,0,0
+1732107087651,510,Overview of FXEC-0,307,Temporary Redirect,FXEC 1-1,text,true,,512,133,1,1,http://www.francisxavier.ac.in/overview,510,0,0
+1732107088161,1105,Overview of FXEC-1,200,OK,FXEC 1-1,text,true,,65210,133,1,1,https://www.francisxavier.ac.in/overview,990,0,0
+1732107089266,669,Leadership,200,OK,FXEC 1-1,text,true,,71883,270,1,1,https://www.francisxavier.ac.in/leadership,339,0,0
+1732107089266,339,Leadership-0,307,Temporary Redirect,FXEC 1-1,text,true,,514,135,1,1,http://www.francisxavier.ac.in/leadership,339,0,0
+1732107089605,330,Leadership-1,200,OK,FXEC 1-1,text,true,,71369,135,1,1,https://www.francisxavier.ac.in/leadership,325,0,0
+1732107089936,1054,Founder Message,200,OK,FXEC 1-1,text,true,,63111,298,1,1,https://www.francisxavier.ac.in/chairman-founder-message,200,0,0
+1732107089936,200,Founder Message-0,307,Temporary Redirect,FXEC 1-1,text,true,,528,149,1,1,http://www.francisxavier.ac.in/chairman-founder-message,200,0,0
+1732107090137,853,Founder Message-1,200,OK,FXEC 1-1,text,true,,62583,149,1,1,https://www.francisxavier.ac.in/chairman-founder-message,843,0,0
+1732107090994,2141,Managing Desk,200,OK,FXEC 1-1,text,true,,59815,296,1,1,https://www.francisxavier.ac.in/managing-directors-desk,1057,0,0
+1732107090994,1057,Managing Desk-0,307,Temporary Redirect,FXEC 1-1,text,true,,527,148,1,1,http://www.francisxavier.ac.in/managing-directors-desk,1057,0,0
+1732107092052,1083,Managing Desk-1,200,OK,FXEC 1-1,text,true,,59288,148,1,1,https://www.francisxavier.ac.in/managing-directors-desk,1078,0,0
+1732107093136,453,Principals Desk,200,OK,FXEC 1-1,text,true,,60751,280,1,1,https://www.francisxavier.ac.in/principals-desk,204,0,0
+1732107093136,204,Principals Desk-0,307,Temporary Redirect,FXEC 1-1,text,true,,519,140,1,1,http://www.francisxavier.ac.in/principals-desk,204,0,0
+1732107093340,249,Principals Desk-1,200,OK,FXEC 1-1,text,true,,60232,140,1,1,https://www.francisxavier.ac.in/principals-desk,235,0,0
+1732107093592,339,Admission,200,OK,FXEC 1-1,text,true,,94351,268,1,1,https://www.francisxavier.ac.in/admission,193,0,0
+1732107093592,193,Admission-0,307,Temporary Redirect,FXEC 1-1,text,true,,513,134,1,1,http://www.francisxavier.ac.in/admission,193,0,0
+1732107093786,145,Admission-1,200,OK,FXEC 1-1,text,true,,93838,134,1,1,https://www.francisxavier.ac.in/admission,135,0,0
+1732107093932,353,COE,200,OK,FXEC 1-1,text,true,,41388,256,1,1,https://www.francisxavier.ac.in/coe,183,0,0
+1732107093932,183,COE-0,307,Temporary Redirect,FXEC 1-1,text,true,,507,128,1,1,http://www.francisxavier.ac.in/coe,183,0,0
+1732107094116,169,COE-1,200,OK,FXEC 1-1,text,true,,40881,128,1,1,https://www.francisxavier.ac.in/coe,160,0,0
+1732107094287,458,Sylabbus Coe,200,OK,FXEC 1-1,text,true,,24901,274,1,1,https://www.francisxavier.ac.in/coe/Syllabus,222,0,0
+1732107094287,222,Sylabbus Coe-0,307,Temporary Redirect,FXEC 1-1,text,true,,516,137,1,1,http://www.francisxavier.ac.in/coe/Syllabus,222,0,0
+1732107094510,235,Sylabbus Coe-1,200,OK,FXEC 1-1,text,true,,24385,137,1,1,https://www.francisxavier.ac.in/coe/Syllabus,234,0,0
+1732107094746,445,Schedule,200,OK,FXEC 1-1,text,true,,20976,274,1,1,https://www.francisxavier.ac.in/coe/Schedule,165,0,0
+1732107094746,165,Schedule-0,307,Temporary Redirect,FXEC 1-1,text,true,,516,137,1,1,http://www.francisxavier.ac.in/coe/Schedule,165,0,0
+1732107094912,279,Schedule-1,200,OK,FXEC 1-1,text,true,,20460,137,1,1,https://www.francisxavier.ac.in/coe/Schedule,272,0,0
+1732107095193,948,Circular,200,OK,FXEC 1-1,text,true,,20994,276,1,1,https://www.francisxavier.ac.in/coe/Circulars,239,0,0
+1732107095193,239,Circular-0,307,Temporary Redirect,FXEC 1-1,text,true,,517,138,1,1,http://www.francisxavier.ac.in/coe/Circulars#,239,0,0
+1732107095433,708,Circular-1,200,OK,FXEC 1-1,text,true,,20477,138,1,1,https://www.francisxavier.ac.in/coe/Circulars,693,0,0
+1732107096143,886,Instructions,200,OK,FXEC 1-1,text,true,,21123,282,1,1,https://www.francisxavier.ac.in/coe/Instructions,204,0,0
+1732107096143,204,Instructions-0,307,Temporary Redirect,FXEC 1-1,text,true,,520,141,1,1,http://www.francisxavier.ac.in/coe/Instructions,204,0,0
+1732107096347,682,Instructions-1,200,OK,FXEC 1-1,text,true,,20603,141,1,1,https://www.francisxavier.ac.in/coe/Instructions,682,0,0
+1732107097030,815,Exam Rules,200,OK,FXEC 1-1,text,true,,28416,278,1,1,https://www.francisxavier.ac.in/coe/Exam_Rules,456,0,0
+1732107097030,456,Exam Rules-0,307,Temporary Redirect,FXEC 1-1,text,true,,518,139,1,1,http://www.francisxavier.ac.in/coe/Exam_Rules,456,0,0
+1732107097487,358,Exam Rules-1,200,OK,FXEC 1-1,text,true,,27898,139,1,1,https://www.francisxavier.ac.in/coe/Exam_Rules,357,0,0
+1732107097846,826,TimeTable,200,OK,FXEC 1-1,text,true,,44010,276,1,1,https://www.francisxavier.ac.in/coe/Timetable,529,0,0
+1732107097846,529,TimeTable-0,307,Temporary Redirect,FXEC 1-1,text,true,,517,138,1,1,http://www.francisxavier.ac.in/coe/Timetable,529,0,0
+1732107098376,296,TimeTable-1,200,OK,FXEC 1-1,text,true,,43493,138,1,1,https://www.francisxavier.ac.in/coe/Timetable,291,0,0
+1732107098673,751,Statistics,200,OK,FXEC 1-1,text,true,,18405,278,1,1,https://www.francisxavier.ac.in/coe/Statistics,359,0,0
+1732107098673,359,Statistics-0,307,Temporary Redirect,FXEC 1-1,text,true,,518,139,1,1,http://www.francisxavier.ac.in/coe/Statistics,359,0,0
+1732107099032,392,Statistics-1,200,OK,FXEC 1-1,text,true,,17887,139,1,1,https://www.francisxavier.ac.in/coe/Statistics,385,0,0
+1732107099425,1328,Result,200,OK,FXEC 1-1,text,true,,18324,270,1,1,https://www.francisxavier.ac.in/coe/Result,801,0,0
+1732107099425,801,Result-0,307,Temporary Redirect,FXEC 1-1,text,true,,514,135,1,1,http://www.francisxavier.ac.in/coe/Result,801,0,0
+1732107100226,527,Result-1,200,OK,FXEC 1-1,text,true,,17810,135,1,1,https://www.francisxavier.ac.in/coe/Result,510,0,0
+1732107100754,2073,CA Result,200,OK,FXEC 1-1,text,true,,18017,274,1,1,https://www.francisxavier.ac.in/coe/CAResult,1692,0,0
+1732107100754,1692,CA Result-0,307,Temporary Redirect,FXEC 1-1,text,true,,516,137,1,1,http://www.francisxavier.ac.in/coe/CAResult,1692,0,0
+1732107102447,380,CA Result-1,200,OK,FXEC 1-1,text,true,,17501,137,1,1,https://www.francisxavier.ac.in/coe/CAResult,379,0,0
+1732107102828,819,Rank Holders,200,OK,FXEC 1-1,text,true,,19288,280,1,1,https://www.francisxavier.ac.in/coe/Rankholders,303,0,0
+1732107102828,303,Rank Holders-0,307,Temporary Redirect,FXEC 1-1,text,true,,519,140,1,1,http://www.francisxavier.ac.in/coe/Rankholders,303,0,0
+1732107103132,515,Rank Holders-1,200,OK,FXEC 1-1,text,true,,18769,140,1,1,https://www.francisxavier.ac.in/coe/Rankholders,514,0,0
+1732107103648,832,Exam Meet,200,OK,FXEC 1-1,text,true,,22612,274,1,1,https://www.francisxavier.ac.in/coe/Exammeet,371,0,0
+1732107103648,371,Exam Meet-0,307,Temporary Redirect,FXEC 1-1,text,true,,516,137,1,1,http://www.francisxavier.ac.in/coe/Exammeet,371,0,0
+1732107104020,460,Exam Meet-1,200,OK,FXEC 1-1,text,true,,22096,137,1,1,https://www.francisxavier.ac.in/coe/Exammeet,439,0,0
+1732107104482,635,Research,200,OK,FXEC 1-1,text,true,,18422,266,1,1,https://www.francisxavier.ac.in/research,221,0,0
+1732107104482,221,Research-0,307,Temporary Redirect,FXEC 1-1,text,true,,512,133,1,1,http://www.francisxavier.ac.in/research,221,0,0
+1732107104704,413,Research-1,200,OK,FXEC 1-1,text,true,,17910,133,1,1,https://www.francisxavier.ac.in/research,365,0,0
